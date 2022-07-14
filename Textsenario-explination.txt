@@ -1,0 +1,9 @@
+    First of all i tested and creat text cases both api and ui test scenarios
+
+    I tested manually one by one many times    on api and ui part also found bugs , I tried one way if you could
+    not handle with my approach some cases .1. first bug during the manual testing is that "tempInFahrenheit":51 =
+    10 celsius) i updated temp endpoint but it showed cold actually it should be "mild"  condition is
+     celsius<10  but  not equal 10. 2.second bug is:IF celsius=20-24 Should be shown "warm" based on AC
+    But it showed nothing it showed like that "description": "The weather is ",3.Bug is if we send and update
+     condition=4  corresponding value  should drizzle.png not like that" icon": "drizzle.jpeg", it showed jpeg it sould be
+     png.
